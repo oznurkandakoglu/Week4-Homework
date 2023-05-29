@@ -7,7 +7,7 @@ import org.oznurkandakoglu.enums.CompanySectorType;
 @Getter
 @Setter
 public class Company {
-
+    // Company model
     private String name;
     private CompanySectorType companySectorType;
 

@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 public interface BillService {
+    //Bill Service interface with methods
     List<Bill> getAllBill();
     List<Bill> getBillsGreaterThanValue(Double value);
     double getAverageOfBillGreaterThanValue(Double value);

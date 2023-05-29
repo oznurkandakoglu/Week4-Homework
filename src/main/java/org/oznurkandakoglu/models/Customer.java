@@ -9,7 +9,7 @@ import java.util.List;
 @Getter
 @Setter
 public class Customer {
-
+    // Customer model
     private String name;
     private Month registrationDate;
     private List<Bill> billList;

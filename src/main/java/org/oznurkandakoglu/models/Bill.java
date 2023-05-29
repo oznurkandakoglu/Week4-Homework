@@ -8,6 +8,7 @@ import java.time.Month;
 @Getter
 @Setter
 public class Bill extends Company {
+    //Bill model
 
     private Double price;
     private Month billDate;

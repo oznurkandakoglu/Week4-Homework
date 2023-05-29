@@ -13,10 +13,13 @@ import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 public class Main {
+
+    // Created bill service and customer service
     private static final BillServiceImpl billService = new BillServiceImpl();
     private static final CustomerServiceImpl customerService = new CustomerServiceImpl();
     public static void main(String[] args) {
 
+        // Print all methods
         System.out.println("-----------------------------------");
         System.out.println("List all customers\n");
         customerService.customerList
@@ -55,7 +58,7 @@ public class Main {
 
         System.out.println("List the sectors in which companies with June invoices below 750 on average\n");
 
-        System.out.println(billService.getCompanySectorTypeLowerThanBillAverage(1200.0));
+        System.out.println(billService.getCompanySectorTypeLowerThanBillAverage(7500.0));
 
         System.out.println("-----------------------------------");
 

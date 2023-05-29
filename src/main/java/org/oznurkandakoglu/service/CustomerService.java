@@ -6,7 +6,7 @@ import java.time.Month;
 import java.util.List;
 
 public interface CustomerService {
-
+    //Customer Service interface with methods
     List<Customer> getAllCustomer();
     void addCustomer(Customer customer);
     List<Customer> getFilteredCustomersByLetter(String letter);

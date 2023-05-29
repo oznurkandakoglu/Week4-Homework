@@ -11,6 +11,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 public class BillServiceImpl implements BillService {
+    // Bill Service Implement
+    //Created new bill list
     public List<Bill> billList = new ArrayList<>();
 
     public BillServiceImpl(){
@@ -26,20 +28,21 @@ public class BillServiceImpl implements BillService {
         billList.add(bill3);
         billList.add(bill4);
     }
+    // Get all bill function
 
     @Override
     public List<Bill> getAllBill() {
         return this.billList;
     }
 
-
+    // Get bill greater than value function
     @Override
     public List<Bill> getBillsGreaterThanValue(Double value) {
         return billList.stream()
                 .filter(bill -> bill.getPrice() > value)
                 .collect(Collectors.toList());
     }
-
+    // Get average of bill greater than value function
     @Override
     public double getAverageOfBillGreaterThanValue(Double value) {
         return billList.stream()
@@ -49,6 +52,7 @@ public class BillServiceImpl implements BillService {
                 .orElse(0);
     }
 
+    // Get company sector type lover than bill average function
     @Override
     public Set<CompanySectorType> getCompanySectorTypeLowerThanBillAverage(Double value) {
         boolean averageFilter = this.billList.stream().filter((Bill) -> {

@@ -10,7 +10,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class CustomerServiceImpl implements CustomerService {
-
+    // Customer Service Implement
+    // Created new customer list
     public List<Customer> customerList = new ArrayList<>();
     public CustomerServiceImpl() {
         Customer customer = new Customer("Öznur Kandakoğlu", Month.JUNE,List.of(new Bill[]{(Bill) (new BillServiceImpl()).billList.get(0)}));
@@ -24,18 +25,19 @@ public class CustomerServiceImpl implements CustomerService {
         addCustomer(customer3);
         addCustomer(customer4);
     }
-
+    // Get all customer function
     @Override
     public List<Customer> getAllCustomer() {
 
         return customerList;
     }
-
+    // Add customer function
     @Override
     public void addCustomer(Customer customer) {
         customerList.add(customer);
     }
 
+    // Get filtered customer by letter ("c") function
     @Override
     public List<Customer> getFilteredCustomersByLetter(String letter) {
         return customerList.stream()
@@ -43,6 +45,7 @@ public class CustomerServiceImpl implements CustomerService {
                 .collect(Collectors.toList());
     }
 
+    // Get filtered customer by month function (June)
     @Override
     public List<Customer> getFilteredCustomersByMonth(Month month) {
         return customerList.stream()
@@ -50,6 +53,7 @@ public class CustomerServiceImpl implements CustomerService {
                 .collect(Collectors.toList());
     }
 
+    // Get customer with orders than bellow function
     @Override
     public List<String> getCustomersWithOrdersBelowThanValue(Double value) {
 
