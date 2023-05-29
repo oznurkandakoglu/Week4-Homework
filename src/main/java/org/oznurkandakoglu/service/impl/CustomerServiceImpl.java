@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 
 public class CustomerServiceImpl implements CustomerService {
     // Customer Service Implement
+
     // Created new customer list
     public List<Customer> customerList = new ArrayList<>();
     public CustomerServiceImpl() {
@@ -25,7 +26,7 @@ public class CustomerServiceImpl implements CustomerService {
         addCustomer(customer3);
         addCustomer(customer4);
     }
-    // Get all customer function
+    // List all customers
     @Override
     public List<Customer> getAllCustomer() {
 
@@ -37,7 +38,7 @@ public class CustomerServiceImpl implements CustomerService {
         customerList.add(customer);
     }
 
-    // Get filtered customer by letter ("c") function
+    // List customers whose names contain the letter 'C'
     @Override
     public List<Customer> getFilteredCustomersByLetter(String letter) {
         return customerList.stream()
@@ -45,7 +46,7 @@ public class CustomerServiceImpl implements CustomerService {
                 .collect(Collectors.toList());
     }
 
-    // Get filtered customer by month function (June)
+    // List the total amount of invoices for customers registered in June
     @Override
     public List<Customer> getFilteredCustomersByMonth(Month month) {
         return customerList.stream()
@@ -53,7 +54,7 @@ public class CustomerServiceImpl implements CustomerService {
                 .collect(Collectors.toList());
     }
 
-    // Get customer with orders than bellow function
+    // List the names of customers with invoices under 500TL in the system
     @Override
     public List<String> getCustomersWithOrdersBelowThanValue(Double value) {
 

@@ -8,11 +8,17 @@ import java.time.Month;
 @Getter
 @Setter
 public class Bill extends Company {
-    //Bill model
+
+    /** Bill model with
+     * Double price
+     * Month billDate
+    **/
 
     private Double price;
     private Month billDate;
 
+
+    // Bill model constructors
     public Bill(String name, CompanySectorType companySectorType) {
         super(name, companySectorType);
     }

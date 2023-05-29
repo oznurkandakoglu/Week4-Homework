@@ -9,11 +9,16 @@ import java.util.List;
 @Getter
 @Setter
 public class Customer {
-    // Customer model
+    /** Customer model with
+     * String name
+     * Month registrationDate;
+     * List<Bill> billList;
+     */
     private String name;
     private Month registrationDate;
     private List<Bill> billList;
 
+    // Customer model constructor
     public Customer(String name, Month registrationDate, List<Bill> billList) {
         this.name = name;
         this.registrationDate = registrationDate;

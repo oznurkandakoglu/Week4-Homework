@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b2bb12-24bc-47c7-bf6a-5ae6c5a8dc09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/enums/CompanySectorType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/enums/CompanySectorType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/models/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/models/Bill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/models/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/models/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/models/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/models/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/service/BillService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/service/impl/BillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/service/impl/BillServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oznurkandakoglu/service/impl/CustomerServiceImpl.java" afterDir="false" />
     </list>
@@ -91,7 +85,7 @@
       <workItem from="1685213062013" duration="6143000" />
       <workItem from="1685300603767" duration="8805000" />
       <workItem from="1685309453151" duration="747000" />
-      <workItem from="1685342413361" duration="456000" />
+      <workItem from="1685342413361" duration="1662000" />
     </task>
     <servers />
   </component>
