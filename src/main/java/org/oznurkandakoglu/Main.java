@@ -1,15 +1,9 @@
 package org.oznurkandakoglu;
 
 import lombok.RequiredArgsConstructor;
-import org.oznurkandakoglu.enums.CompanySectorType;
-import org.oznurkandakoglu.models.Bill;
-import org.oznurkandakoglu.models.Customer;
-import org.oznurkandakoglu.service.CustomerService;
 import org.oznurkandakoglu.service.impl.BillServiceImpl;
 import org.oznurkandakoglu.service.impl.CustomerServiceImpl;
-
 import java.time.Month;
-import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 public class Main {
